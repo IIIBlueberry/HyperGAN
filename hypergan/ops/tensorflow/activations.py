@@ -96,3 +96,6 @@ def minmaxzero(net):
 
 def swish(x):
     return (x * tf.math.sigmoid(x))
+    
+def mish(x):
+    return x * tf.math.tanh(tf.math.softplus(x))
