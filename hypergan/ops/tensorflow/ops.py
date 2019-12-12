@@ -702,7 +702,6 @@ class TensorflowOps:
 
         if symbol == 'swish':
             return swish
-        return symbol
 
         if symbol == 'mish':
             return mish
